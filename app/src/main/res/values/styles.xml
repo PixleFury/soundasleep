@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="btn_toggle_audio">
+		<item name="android:background">@drawable/circle</item>
+		<item name="android:drawableStart">@drawable/btn_toggle_audio</item>
+		<item name="android:scaleType">fitXY</item>
+		<item name="android:textOn"/>
+		<item name="android:textOff"/>
+	</style>
+
+	<style name="btn_noise">
+		<item name="android:background">@drawable/circle</item>
+	</style>
+
+	<style name="wavy_panel">
+		<item name="android:background">@color/background</item>
+		<item name="android:padding">32dp</item>
+	</style>
+</resources>

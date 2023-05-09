@@ -1,0 +1,7 @@
+<resources>
+	<string name="app_name">Sound Asleep</string>
+	<string name="instructions">Choose a sound to relax to…</string>
+	<string name="brown_noise">Brown Noise</string>
+	<string name="white_noise">White Noise</string>
+	<string name="underwater_ambience">Underwater Ambience</string>
+</resources>

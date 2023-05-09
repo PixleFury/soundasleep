@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+	android:height="128dp"
+	android:width="128dp"
+	android:viewportHeight="64"
+	android:viewportWidth="64"
+	android:tileMode="repeat">
+
+	<group
+		android:name="offsetGroup"
+		android:scaleY="1"
+		>
+		<path android:name="wave" android:strokeColor="@color/background" android:strokeWidth="16"
+			android:pathData="M 0 24, s 8 0 16 8, 16 8 16 8, 8 0 16 -8, 16 -8 16 -8, s 8 0 16 8, 16 8 16 8, 8 0 16 -8, 16 -8 16 -8"/>
+	</group>
+
+<!--	<path android:fillColor="#FF0000"-->
+<!--		android:pathData="S 16 0 16 16, 32 32 32 32, 48 32 48 16, 64 0 64 0, L 64 32, S 48 32 48 48, 32 64 32 64, 16 64 16 48, 0 32 0 32, z"/>-->
+
+<!--	<path android:strokeColor="#FF4444" android:strokeWidth="16"-->
+<!--		android:pathData="M 0 16, s 16 0 16 16, 16 16 16 16, 16 0 16 -16, 16 -16 16 -16"/>-->
+</vector>
