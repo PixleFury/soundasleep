@@ -37,9 +37,10 @@
 		<TextView
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
+			android:fontFamily="sans-serif-condensed-medium"
 			android:text="@string/instructions"
 			android:textColor="#282828"
-			android:textSize="18sp"
+			android:textSize="20sp"
 			app:layout_constraintLeft_toLeftOf="parent"
 			app:layout_constraintRight_toRightOf="parent"
 			app:layout_constraintTop_toTopOf="parent" />
@@ -56,29 +57,23 @@
 
 		<Button
 			android:id="@+id/btn_brown"
-			android:background="@drawable/circle"
+			style="@style/btn_noise"
 			app:backgroundTint="@color/brown_tint"
-			android:layout_width="128dp"
-			android:layout_height="128dp"
 			app:layout_constraintLeft_toLeftOf="parent"
 			app:layout_constraintRight_toRightOf="parent"
 			app:layout_constraintTop_toTopOf="parent" />
 
 		<Button
 			android:id="@+id/btn_white"
-			android:background="@drawable/circle"
+			style="@style/btn_noise"
 			app:backgroundTint="@color/white_tint"
-			android:layout_width="128dp"
-			android:layout_height="128dp"
 			app:layout_constraintLeft_toLeftOf="parent"
 			app:layout_constraintRight_toRightOf="parent"
 			app:layout_constraintTop_toBottomOf="@id/btn_brown" />
 
 		<Button
 			android:id="@+id/btn_underwater"
-			android:layout_width="128dp"
-			android:layout_height="128dp"
-			android:background="@drawable/circle"
+			style="@style/btn_noise"
 			app:backgroundTint="@color/underwater_tint"
 			app:layout_constraintBottom_toTopOf="@id/btn_white"
 			app:layout_constraintLeft_toRightOf="@id/btn_brown"

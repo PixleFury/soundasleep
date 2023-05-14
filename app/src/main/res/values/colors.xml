@@ -11,6 +11,6 @@
 	<color name="background">#E8E8E8</color>
 
 	<color name="brown_tint">#CC6141</color>
-	<color name="white_tint">#FFFFFFFF</color>
+	<color name="white_tint">#FFFFFF</color>
 	<color name="underwater_tint">#307CFF</color>
 </resources>
